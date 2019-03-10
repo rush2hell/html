@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <img src="img/bg.jpg" alt="bg" width="70" height="70">
+  <a href="#">About</a>
+  <img src="img/bg.jpg" alt="bg" width="70" height="70">
+  <a href="#">Services</a>
+  <img src="img/bg.jpg" alt="bg" width="70" height="70">
+  <a href="#">Clients</a>
+  <img src="img/bg.jpg" alt="bg" width="70" height="70">
+  <a href="#">Contact</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onmouseover="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "70%";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+     
+</body>
+</html> 
